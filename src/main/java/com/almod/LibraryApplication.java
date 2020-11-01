@@ -23,7 +23,7 @@ public class LibraryApplication {
         SpringApplication.run(LibraryApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     public CommandLineRunner loadData(GenreRepo genreRepo, AuthorRepo authorRepo, BookRepo bookRepo) {
         return (args) -> {
             log.info("Genres found with findAll():");
@@ -44,5 +44,5 @@ public class LibraryApplication {
                 log.info(b.toString());
             }
         };
-    }
+    }*/
 }

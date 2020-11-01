@@ -89,8 +89,8 @@ public class Book implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", author=" + author +
-                ", genre=" + genre +
-                ", publisher=" + publisher +
+                ", genre=" + genre.getName() +
+                ", publisher=" + publisher.getName() +
                 ", year='" + year + '\'' +
                 ", city='" + city + '\'' +
                 '}';
