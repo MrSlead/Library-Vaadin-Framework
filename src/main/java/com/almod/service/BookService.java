@@ -5,10 +5,10 @@ import com.almod.repo.BookRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 @Service
 public class BookService implements BookRepo {
@@ -40,6 +40,14 @@ public class BookService implements BookRepo {
         return bookRepo.findAll();
     }
 
+    public Iterable<Book> findAll(String stringFilter) {
+        if (stringFilter == null || stringFilter.isEmpty()) {
+            return bookRepo.findAll();
+        } else {
+            return search(stringFilter);
+        }
+    }
+
     @Override
     public Iterable<Book> findAllById(Iterable<Long> iterable) {
         return bookRepo.findAllById(iterable);
@@ -68,5 +76,10 @@ public class BookService implements BookRepo {
     @Override
     public void deleteAll() {
         bookRepo.deleteAll();
+    }
+
+    @Override
+    public List<Book> search(String searchTerm) {
+        return bookRepo.search(searchTerm);
     }
 }

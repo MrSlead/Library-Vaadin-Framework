@@ -10,9 +10,9 @@ import com.vaadin.flow.spring.annotation.UIScope;
 @SpringComponent
 @UIScope
 public class TabsEntity extends HorizontalLayout {
-    private Tab tab1 = new Tab("Авторы");
-    private Tab tab2 = new Tab("Книги");
-    private Tab tab3 = new Tab("Жанры");
+    private Tab tab1 = new Tab("Authors");
+    private Tab tab2 = new Tab("Books");
+    private Tab tab3 = new Tab("Genres");
 
     private Tabs tabs;
 

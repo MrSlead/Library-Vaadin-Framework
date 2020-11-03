@@ -4,6 +4,7 @@ import com.almod.component.AuthorComponent;
 import com.almod.component.BookComponent;
 import com.almod.component.GenreComponent;
 import com.almod.component.TabsEntity;
+import com.almod.form.AuthorForm;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.tabs.Tab;
@@ -20,6 +21,7 @@ public class MainView extends VerticalLayout {
     private final AuthorComponent authorComponent;
     private final GenreComponent genreComponent;
     private final BookComponent bookComponent;
+
 
     @Autowired
     public MainView(TabsEntity tabsEntity,

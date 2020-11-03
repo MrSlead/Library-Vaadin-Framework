@@ -4,6 +4,7 @@ insert into genre values(3, 'Комедия');
 insert into genre values(4, 'Ужасы');
 insert into genre values(5, 'Драма');
 insert into genre values(6, 'Мелодрама');
+insert into genre values(7, 'Фентези');
 
 insert into author values(1, 'Николай', 'Гоголь', 'Васильевич'); -- Ревиззор(комедия)
 insert into author values(2, 'Денис', 'Фонвизин', 'Иванович'); -- Недоросль(комедия)
@@ -22,4 +23,4 @@ insert into book values(4, 'Мастер и Маргарита', 4, 2, 'MOSCOW',
 insert into book values(5, 'Капитанская дочка', 5, 2, 'MOSCOW', '1836', 'Москва')
 insert into book values(6, 'Забытый сад', 6, 6, 'O_REILLY', '2008', 'Берри')
 insert into book values(7, 'Пять минут жизни', 7, 5, 'PETER', '2019', 'USA')
-insert into book values(8, 'Ревиззор', 8, 1, 'O_REILLY', '1953', 'Уокиган')
+insert into book values(8, '451 градус по Фаренгейту', 8, 1, 'O_REILLY', '1953', 'Уокиган')

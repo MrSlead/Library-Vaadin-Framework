@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="288a0d6f-b5e7-45cc-83c2-33eaff4c689e" name="Default Changelist" comment="" />
+    <list default="true" id="288a0d6f-b5e7-45cc-83c2-33eaff4c689e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almod/form/AuthorForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almod/form/GenreForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/AuthorComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/AuthorComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/BookComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/BookComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/GenreComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/GenreComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/TabsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/TabsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/entity/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/entity/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/repo/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/repo/BookRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/component/AuthorComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/component/AuthorComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/component/BookComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/component/BookComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/component/GenreComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/component/GenreComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/component/TabsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/component/TabsEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/entity/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/entity/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/repo/BookRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/repo/BookRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/almod/view/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/almod/view/MainView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,53 +95,31 @@
       <recent name="C:\Users\User\IdeaProjects\Library\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibraryApplication">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Library" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Library" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Maven.library [clean]">
+    <configuration name="library [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="shop [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
@@ -157,9 +157,11 @@
     <list>
       <item itemvalue="Maven.shop [compile]" />
       <item itemvalue="Spring Boot.LibraryApplication" />
+      <item itemvalue="Maven.library [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.library [clean]" />
         <item itemvalue="Maven.shop [compile]" />
       </list>
     </recent_temporary>
@@ -175,7 +177,9 @@
       <option name="presentableId" value="Default" />
       <updated>1602853294172</updated>
       <workItem from="1602853299303" duration="20449000" />
-      <workItem from="1604224552665" duration="19476000" />
+      <workItem from="1604224552665" duration="20174000" />
+      <workItem from="1604398043412" duration="306000" />
+      <workItem from="1604401272307" duration="17534000" />
     </task>
     <servers />
   </component>
@@ -191,10 +195,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604227159756" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1604243816808">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1604419480134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604243816808" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604419480134" />
     <state x="484" y="233" width="397" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602854856969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -207,54 +211,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602873311633" />
-    <state width="1323" height="159" key="GridCell.Tab.0.bottom" timestamp="1604243842136">
+    <state width="1323" height="290" key="GridCell.Tab.0.bottom" timestamp="1604423163039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604243842136" />
-    <state width="1323" height="159" key="GridCell.Tab.0.center" timestamp="1604243842135">
+    <state width="1323" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604423163039" />
+    <state width="1323" height="290" key="GridCell.Tab.0.center" timestamp="1604423163039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604243842135" />
-    <state width="1323" height="159" key="GridCell.Tab.0.left" timestamp="1604243842135">
+    <state width="1323" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604423163039" />
+    <state width="1323" height="290" key="GridCell.Tab.0.left" timestamp="1604423163039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604243842135" />
-    <state width="1323" height="159" key="GridCell.Tab.0.right" timestamp="1604243842136">
+    <state width="1323" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604423163039" />
+    <state width="1323" height="290" key="GridCell.Tab.0.right" timestamp="1604423163039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604243842136" />
-    <state width="1323" height="159" key="GridCell.Tab.1.bottom" timestamp="1604243842137">
+    <state width="1323" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604423163039" />
+    <state width="1323" height="290" key="GridCell.Tab.1.bottom" timestamp="1604423163040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604243842137" />
-    <state width="1323" height="159" key="GridCell.Tab.1.center" timestamp="1604243842136">
+    <state width="1323" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604423163040" />
+    <state width="1323" height="290" key="GridCell.Tab.1.center" timestamp="1604423163039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604243842136" />
-    <state width="1323" height="159" key="GridCell.Tab.1.left" timestamp="1604243842136">
+    <state width="1323" height="290" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604423163039" />
+    <state width="1323" height="290" key="GridCell.Tab.1.left" timestamp="1604423163039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604243842136" />
-    <state width="1323" height="159" key="GridCell.Tab.1.right" timestamp="1604243842137">
+    <state width="1323" height="290" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604423163039" />
+    <state width="1323" height="290" key="GridCell.Tab.1.right" timestamp="1604423163040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="159" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604243842137" />
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1604236817255">
+    <state width="1323" height="290" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604423163040" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1604264187925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604236817255" />
-    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1604236817254">
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604264187925" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1604264187925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1604236817254" />
-    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1604236817254">
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1604264187925" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1604264187925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1604236817254" />
-    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1604236817255">
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1604264187925" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1604264187925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1604236817254" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1604264187925" />
     <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1602865012649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
