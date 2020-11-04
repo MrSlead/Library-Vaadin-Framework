@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="288a0d6f-b5e7-45cc-83c2-33eaff4c689e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/almod/form/BookForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/LibraryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/LibraryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/AuthorComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/AuthorComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/BookComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/BookComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/component/GenreComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/component/GenreComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/enginer/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/form/AuthorForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/form/AuthorForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/form/GenreForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/form/GenreForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/repo/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/repo/BookRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/repo/GenreRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/repo/GenreRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/service/GenreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/service/GenreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/almod/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/almod/view/MainView.java" afterDir="false" />
-    </list>
+    <list default="true" id="288a0d6f-b5e7-45cc-83c2-33eaff4c689e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +161,7 @@
       <workItem from="1604478625083" duration="1287000" />
       <workItem from="1604482573447" duration="16009000" />
       <workItem from="1604505546003" duration="12000" />
-      <workItem from="1604509731250" duration="2238000" />
+      <workItem from="1604509731250" duration="2538000" />
     </task>
     <servers />
   </component>
