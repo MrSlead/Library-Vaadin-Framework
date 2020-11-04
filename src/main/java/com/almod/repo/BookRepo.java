@@ -14,7 +14,6 @@ public interface BookRepo extends CrudRepository<Book, Long> {
             "where lower(b.name) like lower(concat('%', :searchTerm, '%')) " +
             "or lower(b.author.firstName) like lower(concat('%', :searchTerm, '%'))" +
             "or lower(b.author.middleName) like lower(concat('%', :searchTerm, '%'))" +
-            "or lower(b.author.lastName) like lower(concat('%', :searchTerm, '%'))" +
-            "or lower(b.publisher) like lower(concat('%', :searchTerm, '%'))") //
+            "or lower(b.author.lastName) like lower(concat('%', :searchTerm, '%'))") //
     List<Book> search(@Param("searchTerm") String searchTerm); //
 }

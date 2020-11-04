@@ -3,8 +3,10 @@ package com.almod.form;
 import com.almod.component.AuthorComponent;
 import com.almod.entity.Author;
 import com.almod.service.AuthorService;
+import com.vaadin.flow.component.Text;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -12,9 +14,9 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.binder.Binder;
 
 public class AuthorForm extends FormLayout {
+    private TextField lastName = new TextField("Last name");
     private TextField firstName = new TextField("First name");
     private TextField middleName = new TextField("Middle name");
-    private TextField lastName = new TextField("Last name");
 
     private Button save = new Button("Save");
     private Button cancel = new Button("Cancel");
@@ -34,7 +36,7 @@ public class AuthorForm extends FormLayout {
         delete.addThemeVariants(ButtonVariant.LUMO_ERROR);
 
         HorizontalLayout buttons = new HorizontalLayout(save, cancel, delete);
-        VerticalLayout items = new VerticalLayout(firstName, lastName, middleName, buttons);
+        VerticalLayout items = new VerticalLayout(lastName, firstName, middleName, buttons);
 
         add(items);
 
@@ -53,7 +55,16 @@ public class AuthorForm extends FormLayout {
     private void delete() {
         Author author = binder.getBean();
         if(checkAuthorOnEmpty(author)) {
-            authorService.delete(author);
+            try {
+                authorService.delete(author);
+            } catch (Exception e) {
+                Dialog errorDialog = new Dialog();
+                errorDialog.add(
+                        new Text("You can't delete while there is a book with this author "),
+                        new Button("Close", ev -> errorDialog.close())
+                );
+                errorDialog.open();
+            }
             authorComponent.updateGrid();
             setAuthor(null);
         }
@@ -87,7 +98,7 @@ public class AuthorForm extends FormLayout {
             authorComponent.getCreateAuthorButton().setVisible(true);
         } else {
             setVisible(true);
-            firstName.focus();
+            lastName.focus();
         }
     }
 }

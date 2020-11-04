@@ -4,7 +4,6 @@ import com.almod.component.AuthorComponent;
 import com.almod.component.BookComponent;
 import com.almod.component.GenreComponent;
 import com.almod.component.TabsEntity;
-import com.almod.form.AuthorForm;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.tabs.Tab;
@@ -48,7 +47,21 @@ public class MainView extends VerticalLayout {
         tabsToGrids.put(tabsEntity.getTab3(), genreComponent);
 
         tabsEntity.getTabs().addSelectedChangeListener(event -> {
-            tabsToGrids.values().forEach(grid -> grid.setVisible(false));
+            tabsToGrids.values().forEach(c -> {
+                c.setVisible(false);
+
+                // bad way 
+                if(c instanceof AuthorComponent) {
+                    ((AuthorComponent) c).updateGrid();
+                }
+                else if(c instanceof BookComponent) {
+                    ((BookComponent) c).updateGrid();
+                }
+                else if(c instanceof GenreComponent) {
+                    ((GenreComponent) c).updateGrid();
+                }
+                //
+            });
             Component selectedPage = tabsToGrids.get(tabsEntity.getTabs().getSelectedTab());
             selectedPage.setVisible(true);
         });

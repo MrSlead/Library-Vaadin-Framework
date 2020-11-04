@@ -1,10 +1,13 @@
 package com.almod.form;
 
+import com.almod.component.BookComponent;
 import com.almod.component.GenreComponent;
 import com.almod.entity.Genre;
 import com.almod.service.GenreService;
+import com.vaadin.flow.component.Text;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -59,7 +62,16 @@ public class GenreForm extends FormLayout {
     private void delete() {
         Genre genre = binder.getBean();
         if(!(genre.getName() == null || genre.getName().isEmpty())) {
-            genreService.delete(genre);
+            try {
+                genreService.delete(genre);
+            } catch (Exception e) {
+                Dialog errorDialog = new Dialog();
+                errorDialog.add(
+                        new Text("You can't delete while there is a book with this genre "),
+                        new Button("Close", ev -> errorDialog.close())
+                );
+                errorDialog.open();
+            }
             genreComponent.updateGrid();
             setGenre(null);
         }

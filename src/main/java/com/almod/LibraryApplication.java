@@ -1,6 +1,5 @@
 package com.almod;
 
-import com.almod.enginer.Gender;
 import com.almod.entity.Author;
 import com.almod.entity.Book;
 import com.almod.entity.Genre;

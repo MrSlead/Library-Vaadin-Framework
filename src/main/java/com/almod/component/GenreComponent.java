@@ -58,4 +58,8 @@ public class GenreComponent extends VerticalLayout {
     public Button getCreateGenreButton() {
         return createGenre;
     }
+
+    public Grid<Genre> getGrid() {
+        return grid;
+    }
 }

@@ -47,7 +47,7 @@ public class AuthorComponent extends VerticalLayout {
 
     private void configureGrid() {
         grid.addClassName("author-grid");
-        grid.setColumns("id","firstName", "middleName", "lastName");
+        grid.setColumns("id","lastName", "firstName", "middleName");
     }
 
     public void updateGrid() {
@@ -56,5 +56,9 @@ public class AuthorComponent extends VerticalLayout {
 
     public Button getCreateAuthorButton() {
         return createAuthor;
+    }
+
+    public Grid<Author> getGrid() {
+        return grid;
     }
 }
